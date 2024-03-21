@@ -14,6 +14,7 @@ Processor::Processor()
 
 void Processor::Command(string commandLine)
 {
+	allCommands += commandLine + '\n';
 	string command;
 	string s_r1, s_r2, s_r3;
 	int r1, r2, r3;

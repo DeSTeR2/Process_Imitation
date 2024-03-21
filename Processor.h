@@ -42,6 +42,9 @@ class Processor
 	void Log();
 
 public:
+	string allCommands;
+
+
 	Processor();
 	void Command(string command);
 
