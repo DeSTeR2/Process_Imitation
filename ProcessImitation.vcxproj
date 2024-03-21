@@ -128,6 +128,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ProcessImitation.cpp" />
+    <ClCompile Include="Processor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Processor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
