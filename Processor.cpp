@@ -88,6 +88,12 @@ void Processor::Command(string commandLine)
 		int posB = Str_To_Int(A);
 
 		this->PS = bool(r2 < 0);
+
+		if (posA == 0 || posB == 0) {
+			cout << "Operation SWAP possible only in position range (1-16)\n";
+			return;
+		}
+
 		Log();
 		this->swap(r1, posA-1, posB-1);
 		this->TC = 2;
